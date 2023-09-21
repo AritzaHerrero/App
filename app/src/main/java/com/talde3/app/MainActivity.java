@@ -18,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                // Sortu intent bat loginORegistratu hasteko
-                Intent intent = new Intent(MainActivity.this, loginORegistro.class);
+                Intent intent = new Intent(MainActivity.this, loginORegistro.class); // Sortu intent bat loginORegistratu hasteko
                 startActivity(intent);
                 finish(); // Honek MainActivity ixten du, erabiltzaileak Atzera botoia erabiliz bertara itzultzea nahi ez baduzu.
             }
