@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "342902953435",
+    "project_id": "appeventos-c6b01",
+    "storage_bucket": "appeventos-c6b01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342902953435:android:f5f73513f118647ec8c3fe",
+        "android_client_info": {
+          "package_name": "com.talde3.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhf_jT9jj3J9CiGn3CUkxnGD3V0ObUeDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

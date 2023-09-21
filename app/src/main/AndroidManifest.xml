@@ -13,6 +13,9 @@
         android:theme="@style/Theme.App"
         tools:targetApi="31">
         <activity
+            android:name=".comoRegistrarte"
+            android:exported="false" />
+        <activity
             android:name=".primeraPantalla"
             android:exported="false" />
         <activity
