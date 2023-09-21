@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App</string>
+    //Karga pantaila
+    <string name="txtAndroidStudio">Hecho con</string>
+    //Login edo register pantaila
+    <string name="txtDniNifLogin">DNI / NIF </string>
+    <string name="txtContraseñaLogin">Contrseña </string>
+    <string name="txtRegistrarseLogin"> ¿No tienes una cuenta? Registrate aquí</string>
+    <string name="btnIniciarSesionLogin">Iniciar sesion</string>
+</resources>
