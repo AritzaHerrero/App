@@ -7,4 +7,8 @@
     <string name="txtContraseñaLogin">Contraseña </string>
     <string name="txtRegistrarseLogin"> <u> ¿No tienes una cuenta? Registrate aquí </u></string>
     <string name="btnIniciarSesionLogin">Iniciar sesion</string>
+    <string name="txtResgistroEmpresaOIndividuo">¿Quieres continuar como empresa o persona independiente? </string>
+    <string name="btnComoEmpresa">Empresa</string>
+    <string name="btnComoIndividuo">Individuo</string>
+    <string name="btnDejarComoRegistrarte">←</string>
 </resources>
