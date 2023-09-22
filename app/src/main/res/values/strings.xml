@@ -1,14 +1,26 @@
 <resources>
     <string name="app_name">App</string>
-    //Karga pantaila
+    //MainActivity
     <string name="txtAndroidStudio">Hecho con</string>
-    //Login edo register pantaila
+    //registro_como_empresa
     <string name="txtDniNifLogin">DNI / NIF </string>
     <string name="txtContraseñaLogin">Contraseña </string>
     <string name="txtRegistrarseLogin"> <u> ¿No tienes una cuenta? Registrate aquí </u></string>
     <string name="btnIniciarSesionLogin">Iniciar sesion</string>
     <string name="txtResgistroEmpresaOIndividuo">¿Quieres continuar como empresa o persona independiente? </string>
+    //comoRegistrarte
     <string name="btnComoEmpresa">Empresa</string>
     <string name="btnComoIndividuo">Individuo</string>
+    //registro_como_empresa/registro_como_individuo
+    <string name="txtRegistroEmpresaIndividuoNombre">Nombre </string>
+    <string name="txtRegistroIndividuoApellido">Apellido </string>
+    <string name="txtRegistroEmpresaIndividuoDireccion">Direccion </string>
+    <string name="txtRegistroEmpresaNIF">NIF </string>
+    <string name="txtRegistroIndividuoDNI"></string>
+    <string name="txtRegistroEmpresaIndividuoTelefono">Telefono </string>
+    <string name="txtRegistroEmpresaIndividuoEmail">Email </string>
+    <string name="txtRegistroEmpresaIndividuoContrasena">Contraseña </string>
+
+    //(Uso general)
     <string name="btnDejarComoRegistrarte">←</string>
 </resources>
