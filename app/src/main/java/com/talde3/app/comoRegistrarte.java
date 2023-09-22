@@ -17,7 +17,7 @@ public class comoRegistrarte extends AppCompatActivity {
 
         Button comoEmpresa = findViewById(R.id.btnComoEmpresa);
         Button comoIndividuo = findViewById(R.id.btnComoIndividuo);
-        Button btnDejarComoRegistrarte = findViewById(R.id.btnDejarComoRegistrarte);
+        Button btnRetroceder = findViewById(R.id.btnComoRegistrarteRetroceder);
         comoEmpresa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -32,7 +32,7 @@ public class comoRegistrarte extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        btnDejarComoRegistrarte.setOnClickListener(new View.OnClickListener() {
+        btnRetroceder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(comoRegistrarte.this, loginORegistro.class);

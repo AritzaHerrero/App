@@ -43,10 +43,10 @@
         app:layout_constraintVertical_bias="0.354" />
 
     <Button
-        android:id="@+id/btnDejarComoRegistrarte"
+        android:id="@+id/btnComoRegistrarteRetroceder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btnDejarComoRegistrarte"
+        android:text="@string/btnRetroceder"
         android:textAlignment="center"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"

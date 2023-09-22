@@ -16,11 +16,11 @@
     <string name="txtRegistroIndividuoApellido">Apellido </string>
     <string name="txtRegistroEmpresaIndividuoDireccion">Direccion </string>
     <string name="txtRegistroEmpresaNIF">NIF </string>
-    <string name="txtRegistroIndividuoDNI"></string>
+    <string name="txtRegistroIndividuoDNI">DNI </string>
     <string name="txtRegistroEmpresaIndividuoTelefono">Telefono </string>
     <string name="txtRegistroEmpresaIndividuoEmail">Email </string>
     <string name="txtRegistroEmpresaIndividuoContrasena">Contraseña </string>
-
+    <string name="btnRegistrar">Registrar</string>
     //(Uso general)
-    <string name="btnDejarComoRegistrarte">←</string>
+    <string name="btnRetroceder">←</string>
 </resources>
