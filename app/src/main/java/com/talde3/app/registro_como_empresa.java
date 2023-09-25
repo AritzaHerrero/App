@@ -15,15 +15,8 @@ public class registro_como_empresa extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_como_empresa);
 
-        EditText NombreEmpresa = findViewById(R.id.etRegistroEmpresaNombre);
-        EditText DireccionEmpresa = findViewById(R.id.etRegistroEmpresaDireccion);
-        EditText NIFEmpresa = findViewById(R.id.etRegistroEmpresaNIF);
-        EditText TelefonoEmpresa = findViewById(R.id.etRegistroEmpresaTelefono);
-        EditText EmailEmpresa = findViewById(R.id.etRegistroEmpresaEmail);
-        EditText ContrasenaEmpresa = findViewById(R.id.etRegistroEmpresaContrasena);
-
         Button btnRetroceder = findViewById(R.id.btnRegistroEmpresaRetroceder);
-        Button btnRegistrar = findViewById(R.id.btnRegistroEmpresaRegistrar);
+        Button btnSiguiente = findViewById(R.id.btnRegistroEmpresaSiguiente);
 
         btnRetroceder.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +25,7 @@ public class registro_como_empresa extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        btnRegistrar.setOnClickListener(new View.OnClickListener() {
+        btnSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(registro_como_empresa.this, primeraPantalla.class);
