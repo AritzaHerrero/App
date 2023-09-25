@@ -13,6 +13,12 @@
         android:theme="@style/Theme.App"
         tools:targetApi="31">
         <activity
+            android:name=".registro_como_empresa_3"
+            android:exported="false" />
+        <activity
+            android:name=".registro_como_empresa_2"
+            android:exported="false" />
+        <activity
             android:name=".registro_como_individuo"
             android:exported="false" />
         <activity
