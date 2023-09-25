@@ -15,7 +15,7 @@
         app:layout_constraintBottom_toTopOf="@+id/txtRegistrarseLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editContraseñaLogin"
+        app:layout_constraintTop_toBottomOf="@+id/etContraseñaLogin"
         app:layout_constraintVertical_bias="0.572" />
 
     <TextView
@@ -31,26 +31,30 @@
         app:layout_constraintVertical_bias="0.718" />
 
     <EditText
-        android:id="@+id/editContraseñaLogin"
+        android:id="@+id/etContraseñaLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
         android:textSize="20sp"
+        android:hint="z"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.264"
         app:layout_constraintStart_toEndOf="@+id/txtContraseñaLogin"
-        app:layout_constraintTop_toBottomOf="@+id/editTxtDniNif"
+        app:layout_constraintTop_toBottomOf="@+id/etDniNif"
         app:layout_constraintVertical_bias="0.167" />
 
     <EditText
-        android:id="@+id/editTxtDniNif"
+        android:id="@+id/etDniNif"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         android:textSize="20sp"
+        android:hint="z"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/txtDniNifLogin"
