@@ -15,6 +15,14 @@ public class registro_como_individuo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_como_individuo);
 
+        EditText NombreIndividuo = findViewById(R.id.etRegistroIndividuoNombre);
+        EditText ApellidoIndividuo = findViewById(R.id.etRegistroIndividuoApellido);
+        EditText DireccionIndividuo = findViewById(R.id.etRegistroIndividuoDireccion);
+        EditText DNIIndividuo = findViewById(R.id.etRegistroIndividuoDNI);
+        EditText TelefonoIndividuo = findViewById(R.id.etRegistroIndividuoTelefono);
+        EditText EmailIndividuo = findViewById(R.id.etRegistroIndividuoEmail);
+        EditText ContrasenaIndividuo = findViewById(R.id.etRegistroIndividuoContrasena);
+
         Button btnRetroceder = findViewById(R.id.btnRegistroIndividuoRetroceder);
         Button btnRegistrar = findViewById(R.id.btnRegistroIndividuoRegistrar);
         btnRetroceder.setOnClickListener(new View.OnClickListener() {

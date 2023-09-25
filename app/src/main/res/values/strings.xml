@@ -12,26 +12,14 @@
     <string name="btnComoEmpresa">Empresa</string>
     <string name="btnComoIndividuo">Individuo</string>
     //registro_como_empresa/registro_como_individuo
-    <string name="txtRegistroEmpresaIndividuoDatosCuenta">Datos de la cuenta</string>
-    <string name="txtRegistroEmpresaIndividuoDatosUsuario">Datos del usuario</string>
-    <string name="txtRegistroEmpresaDatosEncargado">Datos del encargado</string>
-    <string name="txtRegistroEmpresaNombreEmpresa">Nombre de la empresa </string>
-    <string name="txtRegistroEmpresaNombreEncargado">Nombre del encargado </string>
     <string name="txtRegistroEmpresaIndividuoNombre">Nombre </string>
-    <string name="txtRegistroEmpresaApellidoEncargado">Apellido del encargado </string>
     <string name="txtRegistroIndividuoApellido">Apellido </string>
+    <string name="txtRegistroEmpresaIndividuoDireccion">Direccion </string>
     <string name="txtRegistroEmpresaNIF">NIF </string>
-    <string name="txtRegistroEmpresaDNIEncargado">DNI del encargado </string>
     <string name="txtRegistroIndividuoDNI">DNI </string>
     <string name="txtRegistroEmpresaIndividuoTelefono">Telefono </string>
-    <string name="txtRegistroEmpresaIndividuoPais">País </string>
-    <string name="txtRegistroEmpresaIndividuoLocalidad">Localidad </string>
-    <string name="txtRegistroEmpresaIndividuoProvincia">Provincia </string>
-    <string name="txtRegistroEmpresaIndividuoCP">Código Postal </string>
-    <string name="txtRegistroEmpresaIndividuoUsuario">Usuario </string>
+    <string name="txtRegistroEmpresaIndividuoEmail">Email </string>
     <string name="txtRegistroEmpresaIndividuoContrasena">Contraseña </string>
-    <string name="txtRegistroEmpresaIndividuoVerificarContrasena">Verificar Contraseña </string>
-    <string name="btnSiguiente">Siguiente</string>
     <string name="btnRegistrar">Registrar</string>
     //(Uso general)
     <string name="btnRetroceder">←</string>
