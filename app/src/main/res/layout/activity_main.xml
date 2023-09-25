@@ -4,39 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <ImageView
-        android:id="@+id/imgAndroidStudio"
-        android:layout_width="61dp"
-        android:layout_height="63dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogoa"
-        app:layout_constraintVertical_bias="0.751"
-        app:srcCompat="@drawable/android_studio_icon__2014_2019__svg" />
+    tools:context=".MainActivity"
+    android:background="@color/beigeCrema">
 
     <TextView
-        android:id="@+id/txtHechoCon"
+        android:id="@+id/txtEslogan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtAndroidStudio"
+        android:layout_marginTop="120dp"
+        android:text="@string/txtEslogan"
+        android:textAlignment="center"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/imgAndroidStudio"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgLogoa"
-        app:layout_constraintVertical_bias="0.868" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imgLogoa"
-        android:layout_width="412dp"
-        android:layout_height="403dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="471dp"
+        android:layout_height="479dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.705"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/copy_of_2" />

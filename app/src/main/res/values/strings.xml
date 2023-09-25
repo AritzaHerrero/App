@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">App</string>
     //MainActivity
-    <string name="txtAndroidStudio">Hecho con</string>
+    <string name="txtEslogan">El evento de tus sueños, al alcance de tus manos</string>
     //registro_como_empresa
     <string name="txtDniNifLogin">DNI / NIF </string>
     <string name="txtContraseñaLogin">Contraseña </string>
