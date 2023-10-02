@@ -2,5 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="beigeCrema">#FFF6ed</color>
+    <color name="beigeCrema">#FFF6ED</color>
+    <color name="boton">#E8C39E</color>
 </resources>

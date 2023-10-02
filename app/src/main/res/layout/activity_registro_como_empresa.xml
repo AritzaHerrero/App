@@ -7,150 +7,15 @@
     tools:context=".registro_como_empresa"
     android:background="@color/beigeCrema">
 
-    <TextView
-        android:id="@+id/txtRegistroEmpresaNombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txtRegistroEmpresaIndividuoNombre"
-        app:layout_constraintEnd_toStartOf="@+id/etRegistroEmpresaNombre"
-        app:layout_constraintHorizontal_bias="0.636"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="98dp" />
-
-    <EditText
-        android:id="@+id/etRegistroEmpresaNombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="z"
-        android:inputType="text"
-        android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="72dp" />
-
-    <TextView
-        android:id="@+id/txtRegistroEmpresaDireccion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txtRegistroEmpresaIndividuoDireccion"
-        app:layout_constraintEnd_toStartOf="@+id/etRegistroEmpresaDireccion"
-        app:layout_constraintHorizontal_bias="0.28"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="145dp" />
-
-    <EditText
-        android:id="@+id/etRegistroEmpresaDireccion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="z"
-        android:inputType="text"
-        android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="129dp" />
-
-    <TextView
-        android:id="@+id/txtRegistroEmpresaNIF"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="96dp"
-        android:text="@string/txtRegistroEmpresaNIF"
-        app:layout_constraintEnd_toStartOf="@+id/etRegistroEmpresaNIF"
-        app:layout_constraintHorizontal_bias="0.424"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="219dp" />
-
-    <EditText
-        android:id="@+id/etRegistroEmpresaNIF"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="z"
-        android:inputType="text"
-        android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="193dp" />
-
-    <TextView
-        android:id="@+id/txtRegistroEmpresaTelefono"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:text="@string/txtRegistroEmpresaIndividuoTelefono"
-        app:layout_constraintEnd_toStartOf="@+id/etRegistroEmpresaTelefono"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="290dp" />
-
-    <EditText
-        android:id="@+id/etRegistroEmpresaTelefono"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="z"
-        android:inputType="text"
-        android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="264dp" />
-
-    <TextView
-        android:id="@+id/txtRegistroEmpresaEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        android:text="@string/txtRegistroEmpresaIndividuoEmail"
-        app:layout_constraintEnd_toStartOf="@+id/etRegistroEmpresaEmail"
-        app:layout_constraintHorizontal_bias="0.769"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="356dp" />
-
-    <EditText
-        android:id="@+id/etRegistroEmpresaEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="z"
-        android:inputType="text"
-        android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="343dp" />
-
-    <TextView
-        android:id="@+id/txtRegistroEmpresaContrasena"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txtRegistroEmpresaIndividuoContrasena"
-        app:layout_constraintEnd_toStartOf="@+id/etRegistroEmpresaContrasena"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="433dp" />
-
-    <EditText
-        android:id="@+id/etRegistroEmpresaContrasena"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="423dp" />
-
     <Button
         android:id="@+id/btnRegistroEmpresaRetroceder"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
         android:text="@string/btnRetroceder"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textSize="50sp"
+        android:backgroundTint="@color/boton"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -159,10 +24,12 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btnRegistroEmpresaRegistrar"
+        android:id="@+id/btnRegistroEmpresaSiguiente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btnRegistrar"
+        android:text="@string/btnSiguiente"
+        android:backgroundTint="@color/boton"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.956"

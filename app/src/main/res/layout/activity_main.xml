@@ -24,11 +24,11 @@
 
     <ImageView
         android:id="@+id/imgLogoa"
-        android:layout_width="471dp"
-        android:layout_height="479dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="441dp"
+        android:layout_height="449dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/copy_of_2" />
