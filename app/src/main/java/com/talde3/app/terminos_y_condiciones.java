@@ -6,13 +6,13 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Terminos_y_condiciones extends AppCompatActivity {
+public class terminos_y_condiciones extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_terminos_ycondiciones);
+        setContentView(R.layout.activity_terminos_y_condiciones);
 
         TextView TerminosYCondiciones;
         TerminosYCondiciones = (TextView)findViewById(R.id.txtTerminos);

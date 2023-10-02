@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Terminos_y_condiciones">
+    tools:context=".terminos_y_condiciones">
 
     <!-- Your existing ConstraintLayout goes here -->
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.EditText;
 import android.widget.TextView;
 
 public class registro_como_individuo extends AppCompatActivity {
@@ -21,7 +19,7 @@ public class registro_como_individuo extends AppCompatActivity {
         termsAndConditionsLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(registro_como_individuo.this, Terminos_y_condiciones.class);
+                Intent intent = new Intent(registro_como_individuo.this, terminos_y_condiciones.class);
                 startActivity(intent);
             }
         });
