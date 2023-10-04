@@ -1,40 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".registro_como_empresa"
+    android:orientation="vertical"
     android:background="@color/beigeCrema">
 
+    <!-- Logo (1/3 de la pantalla) -->
     <Button
         android:id="@+id/btnRegistroEmpresaRetroceder"
         android:layout_width="75sp"
         android:layout_height="75sp"
-        android:text="@string/btnRetroceder"
+        android:backgroundTint="@color/boton"
         android:gravity="center"
+        android:text="@string/btnRetroceder"
+        android:textColor="@color/black"
         android:textSize="50sp"
-        android:backgroundTint="@color/boton"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnRegistroEmpresaSiguiente"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnSiguiente"
-        android:backgroundTint="@color/boton"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.956"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+    <!-- Formulario de Registro (2/3 de la pantalla) -->
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/logoImageViewRegistroEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        tools:srcCompat="@drawable/copy_of_2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <!-- Campos del formulario de registro con etiquetas -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroEmpresaNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroEmpresaNombre"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroEmpresaNombre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroEmpresaNombre" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegistroEmpresaNif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroEmpresaNif"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroEmpresaNif"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroEmpresaNif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroEmpresaTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroEmpresaTelefono"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroEmpresaTelefono"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroEmpresaTelefono" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroEmpresaEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroEmpresaEmail"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroEmpresaEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroEmpresaEmail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroEmpresaPais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroEmpresaPais"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroEmpresaPais"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroEmpresaPais" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroEmpresaDirecion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroEmpresaDireccion"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroEmpresaDireccion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroEmpresaDireccion" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroEmpresaContraseña"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroEmpresaContraseña"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroEmpresaContraseña"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroEmpresaContraseña"
+                android:layout_marginEnd="25sp"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroEmpresaRepetirContraseña"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroEmpresaRepetirContraseña"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroEmpresaRepetirContraseña"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/txtRegistroEmpresaRepetirContraseña"
+                android:textColorHint="@color/gris"
+                android:layout_marginEnd="25sp"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <!-- Checkbox y Botón de Registro -->
+        <CheckBox
+            android:id="@+id/checkRegistroEmpresaTerminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBoxTerminosYCondiciones"
+            android:layout_marginStart="25sp"
+            android:layout_marginEnd="15sp"/>
+
+        <Button
+            android:id="@+id/btnRegistroEmpresaRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/boton"
+            android:text="@string/btnRegistrar"
+            android:layout_marginStart="50sp"
+            android:layout_marginEnd="50sp"/>
+
+    </LinearLayout>
+</LinearLayout>

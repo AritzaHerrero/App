@@ -1,185 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".registro_como_empresa"
+    android:orientation="vertical"
     android:background="@color/beigeCrema">
 
-    <TextView
-        android:id="@+id/txtTerminosYCondiciones"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/checkBoxTerminosYCondiciones"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.069"
-        app:layout_constraintStart_toEndOf="@+id/checkBoxTerminosYCondiciones"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.883" />
-
-    <CheckBox
-        android:id="@+id/checkBoxTerminosYCondiciones"
-        android:layout_width="31dp"
-        android:layout_height="32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.089"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtRegistroIndividuoCodigoPostal"
-        app:layout_constraintVertical_bias="0.201" />
-
-    <TextView
-        android:id="@+id/txtRegistroIndividuoCodigoPostal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:text="@string/txtRegistroIndividuoCodigoPostal"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.011"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.813" />
-
-    <TextView
-        android:id="@+id/txtRegistroIndividuoLocalidad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:text="@string/txtRegistroIndividuoLocalidad"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.013"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.737" />
-
-    <TextView
-        android:id="@+id/txtRegistroIndividuoProvincia"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/txtRegistroIndividuoProvincia"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/txtRegistroIndividuoLocalidad"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.014"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.915" />
-
-    <TextView
-        android:id="@+id/txtRegistroIndividuoPais"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/txtRegistroIndividuoPais"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/txtRegistroIndividuoProvincia"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.012"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.926" />
-
-    <TextView
-        android:id="@+id/txtRegistroIndividuoTelefono"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/txtRegistroIndividuoTelefono"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/txtRegistroIndividuoPais"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.013"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.923" />
-
-    <TextView
-        android:id="@+id/txtRegistroIndividuoEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/txtRegistroIndividuoEmail"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/txtRegistroIndividuoTelefono"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876" />
-
-    <TextView
-        android:id="@+id/txtRegistroIndividuoDni"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/txtRegistroIndividuoDni"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/txtRegistroIndividuoEmail"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.011"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.772" />
-
-    <TextView
-        android:id="@+id/txtRegistroIndividuoNombreCompleto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/txtRegistroIndividuoNombreCompleto"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/txtRegistroIndividuoDni"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.018"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732" />
-
+    <!-- Logo (1/3 de la pantalla) -->
     <Button
-        android:id="@+id/btnRegistroIndividuoRetroceder"
+        android:id="@+id/btnRegistroIndividualRetroceder"
         android:layout_width="75sp"
         android:layout_height="75sp"
-        android:text="@string/btnRetroceder"
+        android:backgroundTint="@color/boton"
         android:gravity="center"
+        android:text="@string/btnRetroceder"
+        android:textColor="@color/black"
         android:textSize="50sp"
-        android:backgroundTint="@color/boton"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnRegistroIndividuoRegistrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnRegistrar"
-        android:backgroundTint="@color/boton"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.956"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+    <!-- Formulario de Registro (2/3 de la pantalla) -->
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/logoImageViewRegistroIndividual"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        tools:srcCompat="@drawable/copy_of_2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <!-- Campos del formulario de registro con etiquetas -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroIndividualNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroIndividuoNombreCompleto"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroIndividualNombre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroIndividuoNombreCompleto" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroIndividualDni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroIndividuoDni"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroIndividualDni"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroIndividuoDni" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroIndividualTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroIndividuoTelefono"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroIndividualTelefono"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroIndividuoTelefono" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroIndividualEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroIndividuoEmail"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroIndividualEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroIndividuoEmail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroIndividualPais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroIndividuoPais"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroIndividualPais"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroIndividuoPais" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroIndividualDirecion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroIndividuoDireccion"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroIndividualDireccion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="25sp"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroIndividuoDireccion" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroIndividualContraseña"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroIndividuoContraseña"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroIndividualContraseña"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/gris"
+                android:hint="@string/txtRegistroIndividuoContraseña"
+                android:layout_marginEnd="25sp"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtRegitroIndividualRepetirContraseña"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/txtRegistroIndividuoRepetirContraseña"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="15sp"/>
+
+            <EditText
+                android:id="@+id/edtRegistroIndividualRepetirContraseña"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/txtRegistroIndividuoRepetirContraseña"
+                android:textColorHint="@color/gris"
+                android:layout_marginEnd="25sp"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <!-- Checkbox y Botón de Registro -->
+        <CheckBox
+            android:id="@+id/checkRegistroIndividualTerminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBoxTerminosYCondiciones"
+            android:layout_marginStart="25sp"
+            android:layout_marginEnd="15sp"/>
+
+        <Button
+            android:id="@+id/btnRegistroIndividualRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/boton"
+            android:text="@string/btnRegistrar"
+            android:layout_marginStart="50sp"
+            android:layout_marginEnd="50sp"/>
+
+    </LinearLayout>
+</LinearLayout>

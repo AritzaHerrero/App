@@ -19,9 +19,7 @@
     <string name="txtRegistroIndividuoEmail"> Correo electronico </string>
     <string name="txtRegistroIndividuoTelefono"> Teléfono </string>
     <string name="txtRegistroIndividuoPais"> País </string>
-    <string name="txtRegistroIndividuoProvincia"> Provincia </string>
-    <string name="txtRegistroIndividuoLocalidad"> Localidad </string>
-    <string name="txtRegistroIndividuoCodigoPostal"> C.P </string>
+    <string name="txtRegistroIndividuoDireccion"> Dirección </string>
     <string name="txtRegistroIndividuoContraseña"> Contraseña </string>
     <string name="txtRegistroIndividuoRepetirContraseña"> Repite la contraseña </string>
     <string name="checkBoxTerminosYCondiciones"> <u>Aceptas los terminos y condiciones</u></string>
@@ -32,15 +30,19 @@
     <string name="txtRegistroEmpresaEmail"> Correo electronico </string>
     <string name="txtRegistroEmpresaTelefono"> Teléfono </string>
     <string name="txtRegistroEmpresaPais"> País </string>
-    <string name="txtRegistroEmpresaProvincia"> Provincia </string>
-    <string name="txtRegistroEmpresaLocalidad"> Localidad </string>
-    <string name="txtRegistroEmpresaCodigoPostal"> C.P </string>
+    <string name="txtRegistroEmpresaDireccion"> Dirección </string>
     <string name="txtRegistroEmpresaContraseña"> Contraseña </string>
     <string name="txtRegistroEmpresaRepetirContraseña"> Repite la contraseña </string>
+
+
+
 
     //registro_como_empresa/registro_como_individuo
     <string name="btnSiguiente">Siguiente</string>
     <string name="btnRegistrar">Registrar</string>
+
+
+
     //terminos y condiciones
     <string name="txtTituloTerminos">TÉRMINOS Y CONDICIONES DE USO DE LA APLICACIÓN DREAM EVENEMENT </string>
     <string name="txtTerminos">
