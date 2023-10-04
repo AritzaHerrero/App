@@ -30,7 +30,7 @@
         android:layout_weight="1"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
-        tools:srcCompat="@drawable/copy_of_2" />
+        app:srcCompat="@drawable/copy_of_2"/>
 
 
     <LinearLayout
@@ -63,7 +63,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroEmpresaNombre" />
+                android:hint="@string/txtRegistroEmpresaNombreHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -89,7 +89,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroEmpresaNif" />
+                android:hint="@string/txtRegistroEmpresaNifHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -115,7 +115,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroEmpresaTelefono" />
+                android:hint="@string/txtRegistroEmpresaTelefonoHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -141,7 +141,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroEmpresaEmail" />
+                android:hint="@string/txtRegistroEmpresaEmailHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -167,7 +167,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroEmpresaPais" />
+                android:hint="@string/txtRegistroEmpresaPaisHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -193,7 +193,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroEmpresaDireccion" />
+                android:hint="@string/txtRegistroEmpresaDireccionHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -218,7 +218,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroEmpresaContraseña"
+                android:hint="@string/txtRegistroEmpresaContraseñaHint"
                 android:layout_marginEnd="25sp"
                 android:inputType="textPassword" />
         </LinearLayout>
@@ -244,7 +244,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="@string/txtRegistroEmpresaRepetirContraseña"
+                android:hint="@string/txtRegistroEmpresaRepetirContraseñaHint"
                 android:textColorHint="@color/gris"
                 android:layout_marginEnd="25sp"
                 android:inputType="textPassword" />

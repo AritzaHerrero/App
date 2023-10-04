@@ -30,7 +30,7 @@
         android:layout_weight="1"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
-        tools:srcCompat="@drawable/copy_of_2" />
+        app:srcCompat="@drawable/copy_of_2" />
 
 
     <LinearLayout
@@ -63,7 +63,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroIndividuoNombreCompleto" />
+                android:hint="@string/txtRegistroIndividuoNombreCompletoHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -89,7 +89,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroIndividuoDni" />
+                android:hint="@string/txtRegistroIndividuoDniHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -115,7 +115,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroIndividuoTelefono" />
+                android:hint="@string/txtRegistroIndividuoTelefonoHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -141,7 +141,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroIndividuoEmail" />
+                android:hint="@string/txtRegistroIndividuoEmailHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -167,7 +167,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroIndividuoPais" />
+                android:hint="@string/txtRegistroIndividuoPaisHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -193,7 +193,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroIndividuoDireccion" />
+                android:hint="@string/txtRegistroIndividuoDireccionHint" />
         </LinearLayout>
 
         <LinearLayout
@@ -218,7 +218,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroIndividuoContraseña"
+                android:hint="@string/txtRegistroIndividuoContraseñaHint"
                 android:layout_marginEnd="25sp"
                 android:inputType="textPassword" />
         </LinearLayout>
@@ -244,7 +244,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="@string/txtRegistroIndividuoRepetirContraseña"
+                android:hint="@string/txtRegistroIndividuoRepetirContraseñaHint"
                 android:textColorHint="@color/gris"
                 android:layout_marginEnd="25sp"
                 android:inputType="textPassword" />

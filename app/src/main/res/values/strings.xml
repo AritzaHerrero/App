@@ -3,8 +3,8 @@
     //MainActivity
     <string name="txtEslogan">El evento de tus sueños, al alcance de tus manos</string>
     //registro_como_empresa
-    <string name="txtDniNifLogin">DNI / NIF </string>
-    <string name="txtContraseñaLogin">Contraseña </string>
+    <string name="txtDniNifLogin">DNI / NIF:</string>
+    <string name="txtContraseñaLogin">Contraseña:</string>
     <string name="txtRegistrarseLogin"> <u> ¿No tienes una cuenta? Registrate aquí </u></string>
     <string name="btnIniciarSesionLogin">Iniciar sesion</string>
     <string name="txtResgistroEmpresaOIndividuo">¿Quieres continuar como empresa o persona independiente? </string>
@@ -14,27 +14,46 @@
     <string name="btnComoIndividuo">Individuo</string>
 
     //Registro como individuo
-    <string name="txtRegistroIndividuoNombreCompleto">Nombre completo</string>
-    <string name="txtRegistroIndividuoDni"> DNI </string>
-    <string name="txtRegistroIndividuoEmail"> Correo electronico </string>
-    <string name="txtRegistroIndividuoTelefono"> Teléfono </string>
-    <string name="txtRegistroIndividuoPais"> País </string>
-    <string name="txtRegistroIndividuoDireccion"> Dirección </string>
-    <string name="txtRegistroIndividuoContraseña"> Contraseña </string>
-    <string name="txtRegistroIndividuoRepetirContraseña"> Repite la contraseña </string>
+    <string name="txtRegistroIndividuoNombreCompleto">Nombre completo:</string>
+    <string name="txtRegistroIndividuoDni">DNI:</string>
+    <string name="txtRegistroIndividuoEmail">Correo electronico:</string>
+    <string name="txtRegistroIndividuoTelefono">Teléfono:</string>
+    <string name="txtRegistroIndividuoPais">País:</string>
+    <string name="txtRegistroIndividuoDireccion">Dirección:</string>
+    <string name="txtRegistroIndividuoContraseña">Contraseña:</string>
+    <string name="txtRegistroIndividuoRepetirContraseña">Repite la contraseña:</string>
+
+    //HINT TEXTURAKO STRING-AK REGISTRATZEKOAN INDIBIDUAL BEZALA
+    <string name="txtRegistroIndividuoNombreCompletoHint">Nombre completo</string>
+    <string name="txtRegistroIndividuoDniHint">DNI</string>
+    <string name="txtRegistroIndividuoEmailHint">Correo electronico</string>
+    <string name="txtRegistroIndividuoTelefonoHint">Teléfono</string>
+    <string name="txtRegistroIndividuoPaisHint">País</string>
+    <string name="txtRegistroIndividuoDireccionHint">Dirección</string>
+    <string name="txtRegistroIndividuoContraseñaHint">Contraseña</string>
+    <string name="txtRegistroIndividuoRepetirContraseñaHint">Repite la contraseña</string>
+
     <string name="checkBoxTerminosYCondiciones"> <u>Aceptas los terminos y condiciones</u></string>
 
     //Registro como empresa
-    <string name="txtRegistroEmpresaNombre">Nombre empresa</string>
-    <string name="txtRegistroEmpresaNif"> NIF </string>
-    <string name="txtRegistroEmpresaEmail"> Correo electronico </string>
-    <string name="txtRegistroEmpresaTelefono"> Teléfono </string>
-    <string name="txtRegistroEmpresaPais"> País </string>
-    <string name="txtRegistroEmpresaDireccion"> Dirección </string>
-    <string name="txtRegistroEmpresaContraseña"> Contraseña </string>
-    <string name="txtRegistroEmpresaRepetirContraseña"> Repite la contraseña </string>
+    <string name="txtRegistroEmpresaNombre">Nombre empresa:</string>
+    <string name="txtRegistroEmpresaNif">NIF:</string>
+    <string name="txtRegistroEmpresaEmail">Correo electronico:</string>
+    <string name="txtRegistroEmpresaTelefono">Teléfono:</string>
+    <string name="txtRegistroEmpresaPais">País:</string>
+    <string name="txtRegistroEmpresaDireccion">Dirección:</string>
+    <string name="txtRegistroEmpresaContraseña">Contraseña:</string>
+    <string name="txtRegistroEmpresaRepetirContraseña">Repite la contraseña:</string>
 
 
+    <string name="txtRegistroEmpresaNombreHint">Nombre empresa</string>
+    <string name="txtRegistroEmpresaNifHint">NIF</string>
+    <string name="txtRegistroEmpresaEmailHint">Correo electronico</string>
+    <string name="txtRegistroEmpresaTelefonoHint">Teléfono</string>
+    <string name="txtRegistroEmpresaPaisHint">País</string>
+    <string name="txtRegistroEmpresaDireccionHint">Dirección</string>
+    <string name="txtRegistroEmpresaContraseñaHint">Contraseña</string>
+    <string name="txtRegistroEmpresaRepetirContraseñaHint">Repite la contraseña</string>
 
 
     //registro_como_empresa/registro_como_individuo

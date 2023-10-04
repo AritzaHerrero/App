@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
+import android.widget.CheckBox;
 
 public class registro_como_empresa extends AppCompatActivity {
 
@@ -24,5 +24,17 @@ public class registro_como_empresa extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button btnRegistrar = findViewById(R.id.btnRegistroEmpresaRegistrar);
+        btnRegistrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(registro_como_empresa.this, primeraPantalla.class);
+                startActivity(intent);
+            }
+        });
+
+
+        CheckBox checkBox = findViewById(R.id.checkRegistroEmpresaTerminos);
+
     }
 }

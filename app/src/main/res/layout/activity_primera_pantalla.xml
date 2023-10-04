@@ -7,4 +7,12 @@
     tools:context=".primeraPantalla"
     android:background="@color/beigeCrema">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="243dp"
+        android:layout_height="125dp"
+        android:text="PRIMER PANTALLA"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="257dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
