@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Terminos_y_condiciones extends AppCompatActivity {
+public class terminos_y_condiciones extends AppCompatActivity {
 
 
     @Override

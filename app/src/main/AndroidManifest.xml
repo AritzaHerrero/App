@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name=".Terminos_y_condiciones"
+            android:name=".terminos_y_condiciones"
             android:exported="false" />
         <activity
             android:name=".registro_como_empresa_3"
