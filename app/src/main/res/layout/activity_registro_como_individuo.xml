@@ -115,7 +115,8 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroIndividuoTelefonoHint" />
+                android:hint="@string/txtRegistroIndividuoTelefonoHint"
+                android:inputType="number|phone"/>
         </LinearLayout>
 
         <LinearLayout
@@ -141,7 +142,8 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="25sp"
                 android:textColorHint="@color/gris"
-                android:hint="@string/txtRegistroIndividuoEmailHint" />
+                android:hint="@string/txtRegistroIndividuoEmailHint"
+                android:inputType="textEmailAddress"/>
         </LinearLayout>
 
         <LinearLayout
@@ -251,13 +253,27 @@
         </LinearLayout>
 
         <!-- Checkbox y Botón de Registro -->
-        <CheckBox
-            android:id="@+id/checkRegistroIndividualTerminos"
-            android:layout_width="wrap_content"
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/checkBoxTerminosYCondiciones"
-            android:layout_marginStart="25sp"
-            android:layout_marginEnd="15sp"/>
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkRegistroIndividualTerminos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25sp"
+                android:layout_marginEnd="2sp"/>
+
+            <TextView
+                android:id="@+id/txtRegistroIndividuoTerminos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/checkBoxTerminosYCondiciones"/>
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/btnRegistroIndividualRegistrar"

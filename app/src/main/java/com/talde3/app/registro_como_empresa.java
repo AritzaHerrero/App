@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.TextView;
 
 public class registro_como_empresa extends AppCompatActivity {
 
@@ -33,8 +34,15 @@ public class registro_como_empresa extends AppCompatActivity {
             }
         });
 
-
-        CheckBox checkBox = findViewById(R.id.checkRegistroEmpresaTerminos);
+        TextView txtTerminos = findViewById(R.id.txtRegistroEmpresaTerminos);
+        txtTerminos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(registro_como_empresa.this, terminos_y_condiciones.class);
+                intent.putExtra("actividad_actual", "registro_como_empresa");
+                startActivity(intent);
+            }
+        });
 
     }
 }
