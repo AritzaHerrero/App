@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
 public class primeraPantalla extends AppCompatActivity {
@@ -14,9 +15,17 @@ public class primeraPantalla extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_primera_pantalla);
 
-        Button btnPrueba = findViewById(R.id.botonPrueba);
+        ImageButton btnAbrirDesplegable = findViewById(R.id.imgBtnAbrirMenuDesplegable);
         LinearLayout linearLayout = findViewById(R.id.linearLayoutMenu);
-        btnPrueba.setOnClickListener(new View.OnClickListener() {
+        ImageButton btnCerrarDesplegable = findViewById(R.id.imgBtnCerrarMenuDesplegable);
+
+        btnAbrirDesplegable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                linearLayout.setVisibility(View.VISIBLE);
+            }
+        });
+        btnCerrarDesplegable.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 linearLayout.setVisibility(View.INVISIBLE);

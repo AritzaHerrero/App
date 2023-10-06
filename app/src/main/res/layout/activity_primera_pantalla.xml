@@ -7,14 +7,17 @@
     tools:context=".primeraPantalla"
     android:background="@color/beigeCrema">
 
-    <Button
-        android:id="@+id/botonPrueba"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="menu"
+
+    <ImageButton
+        android:id="@+id/imgBtnAbrirMenuDesplegable"
+        android:background="@android:color/transparent"
+        android:layout_width="61dp"
+        android:layout_height="45dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/desplegable"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
@@ -22,7 +25,7 @@
     <LinearLayout
         android:id="@+id/linearLayoutMenu"
         android:layout_width="275sp"
-        android:layout_height="600sp"
+        android:layout_height="720sp"
         android:background="@color/boton"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,24 +35,65 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
+
+        <ImageButton
+            android:id="@+id/imgBtnCerrarMenuDesplegable"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="20sp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/desplegable" />
+
+        <LinearLayout
+            android:layout_width="275sp"
+            android:layout_height="50sp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgBtnUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/avatarusuario" />
+
+            <Button
+                android:id="@+id/btnUsuario"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/txtUsuario"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+
         <LinearLayout
             android:layout_width="275sp"
             android:layout_height="50sp"
             android:layout_marginTop="25sp"
+            android:background="@color/boton"
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton6"
+                android:id="@+id/imgBtnBodas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@android:drawable/btn_star" />
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/alianza" />
 
             <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+                android:id="@+id/btnBodas"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/txtBodas"
+                android:textAlignment="textStart" />
 
         </LinearLayout>
 
@@ -60,17 +104,21 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton7"
+                android:id="@+id/imgBtnBautizos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@android:drawable/btn_star" />
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/bautizo" />
 
             <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
+                android:id="@+id/btnBautizos"
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:background="@android:color/transparent"
+                android:text="@string/txtBautizos"
+                android:textAlignment="textStart" />
 
         </LinearLayout>
 
@@ -81,38 +129,21 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton8"
+                android:id="@+id/imgBtnComuniones"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@android:drawable/btn_star" />
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/comunion" />
 
             <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
+                android:id="@+id/btnComuniones"
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:text="Button" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="275sp"
-            android:layout_height="50sp"
-            android:layout_marginTop="25sp"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/imageButton9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@android:drawable/btn_star" />
-
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
+                android:background="@android:color/transparent"
+                android:text="@string/txtComuniones"
+                android:textAlignment="textStart" />
 
         </LinearLayout>
 
@@ -124,17 +155,21 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton10"
+                android:id="@+id/imgBtnCumpleaños"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@android:drawable/btn_star" />
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/cumplea_os" />
 
             <Button
-                android:id="@+id/button5"
-                android:layout_width="wrap_content"
+                android:id="@+id/btnCumpleaños"
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:background="@android:color/transparent"
+                android:text="@string/txtCumpleaños"
+                android:textAlignment="textStart" />
 
         </LinearLayout>
 
@@ -145,20 +180,99 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton11"
+                android:id="@+id/imgBtnComidasYCenas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@android:drawable/btn_star" />
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/comidasycenas" />
 
             <Button
-                android:id="@+id/button6"
-                android:layout_width="wrap_content"
+                android:id="@+id/btnComidasYCenas"
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:background="@android:color/transparent"
+                android:text="@string/txtComidasYCenas"
+                android:textAlignment="textStart" />
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="275sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="25sp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgBtnAniversarios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/aniversario" />
+
+            <Button
+                android:id="@+id/btnAniversarios"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/txtAniversarios"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="275sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="25sp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgBtnPresentaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/presentacion" />
+
+            <Button
+                android:id="@+id/btnPresentaciones"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/txtPresentaciones"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="275sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="25sp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgBtnOtros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/otros" />
+
+            <Button
+                android:id="@+id/btnOtros"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/txtOtros"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

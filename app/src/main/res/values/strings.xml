@@ -9,6 +9,19 @@
     <string name="btnIniciarSesionLogin">Iniciar sesion</string>
     <string name="txtResgistroEmpresaOIndividuo">¿Quieres continuar como empresa o persona independiente? </string>
 
+
+    //menu desplegable
+    <string name="txtUsuario">Usuario</string>
+    <string name="txtBodas">Bodas</string>
+    <string name="txtBautizos">Bautizos</string>
+    <string name="txtComuniones">Comuniones</string>
+    <string name="txtCumpleaños">Cumpleaños</string>
+    <string name="txtAniversarios">Aniversarios</string>
+    <string name="txtComidasYCenas">Comidas y Cenas</string>
+    <string name="txtPresentaciones">Presentaciones</string>
+    <string name="txtOtros">Otros</string>
+    <string name="txtCerrarMenu">X</string>
+
     //comoRegistrarte
     <string name="btnComoEmpresa">Empresa</string>
     <string name="btnComoIndividuo">Individuo</string>
